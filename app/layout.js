@@ -6,8 +6,6 @@ export const metadata = {
   title: 'G1-Chat Downloader',
   description: 'Free YouTube, TikTok, Facebook, Instagram and X video downloader.',
   manifest: '/manifest.json',
-  themeColor: '#00a86b',
-  appleWebApp: { capable: true, statusBarStyle: 'default', title: 'G1-Chat' },
 };
 
 export const viewport = {
@@ -15,6 +13,7 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 1,
   viewportFit: 'cover',
+  themeColor: '#00a86b',
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +21,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#00a86b" />
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
       </head>
       <body>
