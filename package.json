@@ -1,5 +1,5 @@
 {
-  "name": "g1-chat",
+  "name": "gi-chat-downloader",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.5",
+    "next": "14.2.32",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "cheerio": "1.0.0-rc.12",
